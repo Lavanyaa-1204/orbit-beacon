@@ -1,0 +1,15 @@
+{
+  "name": "beacon-worker",
+  "version": "1.0.0",
+  "description": "Beacon background worker, moves orders along",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "lint": "echo \"no linter set up yet\""
+  },
+  "dependencies": {
+    "pg": "8.11.3",
+    "redis": "4.6.7"
+  }
+}

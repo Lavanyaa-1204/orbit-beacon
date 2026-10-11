@@ -1,0 +1,9 @@
+{
+  "name": "beacon-frontend",
+  "version": "1.0.0",
+  "description": "Beacon order board (static site)",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node serve.js"
+  }
+}
